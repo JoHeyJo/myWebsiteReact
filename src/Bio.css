@@ -1,0 +1,11 @@
+#Bio-about-me {
+  /* border: 5px solid black; */
+  padding: 3em;
+  font-size: .5em;
+  background-color: aqua;
+}
+
+li {
+  list-style: none;
+  font-size: calc(100% + 1vw + 1vh);
+}

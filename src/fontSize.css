@@ -1,0 +1,66 @@
+/* font size for Bio */
+@media (min-width: 320px) {
+  .fs {
+    font-size: .25rem;
+  }
+}
+
+  @media (min-width: 544px) {
+  .fs {
+    font-size: .5rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .fs {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .fs {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 1400px) {
+  .fs {
+    font-size: 1.5rem;
+  }
+}
+
+/* font size for Banner */
+@media (min-width: 320px) {
+  .bannerFs {
+    font-size: 6rem;
+    letter-spacing: -4px;
+  }
+}
+
+@media (min-width: 544px) {
+  .bannerFs {
+    font-size: 9rem;
+    letter-spacing: -2px;
+    /* text-align: initial; */
+  }
+}
+
+@media (min-width: 768px) {
+  .bannerFs {
+    font-size: 12rem;
+    letter-spacing: -3px;
+    /* text-align: initial; */
+  }
+}
+
+@media (min-width: 1200px) {
+  .bannerFs {
+    font-size: 16em;
+  }
+}
+
+@media (min-width: 1400px) {
+  .bannerFs {
+    /* font-size: 1rem; */
+  }
+}

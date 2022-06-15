@@ -1,0 +1,11 @@
+#Header-bar {
+  border: 5px solid black;
+  /* position: fixed; */
+  /* max-width: 100%; */
+  text-align: center;
+  letter-spacing: 1.5em;
+  text-transform: uppercase;
+  padding-top: .625rem;
+  background-color: aqua;
+}
+

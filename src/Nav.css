@@ -1,0 +1,38 @@
+.Nav-navbar {
+  /* border: 5px solid black; */
+  /* display: flex; */
+  flex-direction: column;
+  margin-top: 40vh;
+  position: fixed;
+  /* width: 10%; */
+
+  /* top: 0; */
+  /* left: 0; */
+  /* height: 100vh; */
+  /* z-index: 999; */
+  /* background: #7386D5; */
+  /* color: #fff; */
+  /* transition: all 0.3s; */
+  /* flex-wrap:nowrap; */
+
+}
+
+.Nav-sidebar {
+  display: flex;
+
+  justify-content: center;
+  background-color: aqua;
+  /* align-items: flex-start; */
+  /* /* font-size: calc(100% + 1vw + 1vh); */
+}
+
+.Nav-font {
+  color: black;
+  text-decoration: none;
+  transition: 8s;
+  /* font-size: 1.5rem; */
+}
+
+a {
+  color: rgba(0, 0, 0, 0.0);
+}

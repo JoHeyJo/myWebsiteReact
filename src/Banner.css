@@ -1,0 +1,28 @@
+
+.Banner-container {
+  /* border: 5px solid black; */
+  /* text-align: center; */
+  /* font-size: 10em; */
+  font-family: 'Roboto Condensed', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: -15px;
+  background-color: aqua;
+}
+
+#Banner-text {
+  font-size: calc(100% + 10vw + 10vh);
+}
+/* 
+hidden-text {
+  color: rgba(0, 0, 0, 0.0);
+  font-size: 5rem;
+  letter-spacing: normal;
+  transition: 2s;
+}
+
+Banner-container:hover #hidden-text {
+  font-size: 5rem;
+  display: inline;
+  color: rgba(0, 0, 0);
+  transition: 2.5s;
+} */
