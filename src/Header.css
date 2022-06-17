@@ -1,6 +1,6 @@
 #Header-bar {
-  border-top: 1px solid black;
-  border-bottom: 1px solid black;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
   /* width: 1000px; */
   position: fixed;
   /* max-width: 100%; */
@@ -9,6 +9,7 @@
   text-transform: uppercase;
   padding-top: .625rem;
   background-color: aqua;
+  font-weight: 400;
 }
 
 #Header-container {
