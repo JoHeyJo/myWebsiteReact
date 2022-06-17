@@ -1,7 +1,8 @@
 #Footer-bar {
     bottom: 0;
     height: 50px;
-
+    padding: 0;
+    background-color: aqua;
     
 }
 /* TODO:fix alignment to  */
@@ -13,6 +14,8 @@
     height: 50px;
     letter-spacing: 5px;
     position: sticky;
+    /* background-color: aqua; */
+    bottom: 0;
     /* background-color: aqua; */
     /* position: sticky; */
     /*width: 100%;  <<<  this maintains bar in old code base */
@@ -29,13 +32,15 @@
 }
 
 #Footer-container{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
     bottom: 0;
     position: fixed;
     /*margin-top: auto;*/
-    width: 100%;
+    /* width: 1000px; */
     height: 50px;
     background-color: aqua;
-    border-style: solid;
+
     /* text-align: center; */
     /*letter-spacing: 5px;*/
     /*border-left: none;*/

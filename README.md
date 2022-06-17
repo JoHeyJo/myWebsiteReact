@@ -5,6 +5,10 @@ WIP:
 
 -Some dom effects for Nav
 
+-completely broken in landscape mode
+
+-to and bottom border have it expand across page. 
+
 Hacked it:
 -Target entire background from on style(currently spread across every file.)
 

@@ -13,14 +13,16 @@ import './Nav.css'
 function App() {
   return (
     <>
+
+
       <Container fluid>
         {/* HEADER */}
         <Row>
           <Header />
         </Row>
-      </Container>
+      {/* </Container> */}
 
-      <Container fluid>
+      {/* <Container fluid> */}
         <Row >
           {/* NAV */}
           <Col className='Nav-sidebar .d-sm-none.d-md-block' sm={2}>
@@ -33,8 +35,8 @@ function App() {
             <Bio />
           </Col>
         </Row>
-        <Row id='Footer-container'></Row>
         <Row >
+        <Row id='Footer-container'></Row>
         {/* FOOTER */}
           <Footer />
         </Row>
