@@ -30,6 +30,12 @@
 }
 
 /* font size for Banner */
+@media (max-width: 544px){
+  .bannerFs{
+    padding-top: 15%;
+    
+  }
+}
 @media (min-width: 320px) {
   .bannerFs {
     font-size: 6rem;
@@ -49,6 +55,7 @@
   .bannerFs {
     font-size: 12rem;
     letter-spacing: -3px;
+    
     /* text-align: initial; */
   }
 }

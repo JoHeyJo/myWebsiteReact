@@ -1,11 +1,25 @@
 #Bio-about-me {
   /* border: 5px solid black; */
-  padding: 3em;
+  /* padding: 3em; */
   font-size: .5em;
   background-color: aqua;
+
 }
 
 li {
-  list-style: none;
+  list-style: "- ";
   font-size: calc(100% + 1vw + 1vh);
 }
+
+
+/* li.arrow::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 6px;
+  height: 5px;
+  width: 5px;
+  border: 1px solid #f9dd94;
+  border-width: 2px 2px 0 0;
+  transform: rotate(45deg);
+} */

@@ -7,12 +7,12 @@ function Bio() {
     <section id="Bio-about-me">
 
       <ul className="fsm" id="about-me-links container">
-        <li>Hi! I'm Joannes.</li>
+        <li className="arrow">Hi! I'm Joannes.</li>
         <li>Welcome to my page!</li>
         <li>11 year veteran of the bar industry</li>
-        <li>Pursuing my dream to work from home without having to put shoes on</li>
-        <li>Currently exploring the realm of fullstack web develplement at Rithm School</li>
-        <li>My main goal is to be a well rounded swe with my main focus being back-end dev</li>
+        <li>Pursuing my childhood dream to play with computers. </li>
+        <li>Recently graduated an immersive fullstack web development program at Rithm School</li>
+        <li>Currently working towards being a fullstack software engineer.</li>
       </ul>
 
     </section>
