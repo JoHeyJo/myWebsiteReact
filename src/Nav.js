@@ -12,10 +12,10 @@ function Nav(){
  return (
    <Navbar className="Nav-navbar d-none d-sm-flex fs-4">
       <BrowserRouter>
-       <HashLink className="Nav-font" to="/">About</HashLink>
+       <HashLink className="Nav-font" to="#Bio-about-me">About</HashLink>
        <a className="Nav-font"  href="https://github.com/JoHeyJo/joheyjo.github.io/blob/main/resume.pdf">Resume</a>
-        <HashLink className="Nav-font" to="/">Contact</HashLink>
-        <HashLink className="Nav-font" to="/">Experience</HashLink>
+       <HashLink className="Nav-font" to="#footer-content">Contact</HashLink>
+       <HashLink className="Nav-font" to="#footer-content">Experience</HashLink>
       </BrowserRouter>
   </Navbar>
  ) 
