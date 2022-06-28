@@ -7,15 +7,10 @@ WIP:
 
 -completely broken in landscape mode
 
--to and bottom border have it expand across page. 
 
 Hacked it:
 -Target entire background from on style(currently spread across every file.)
 
--Header isn't centered/ doesn't go across 
-entire page
-
--Banner doesn't fit the frame on all screen sizes
 
 
 
