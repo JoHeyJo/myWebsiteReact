@@ -13,7 +13,7 @@ function Nav(){
    <Navbar className="Nav-navbar d-none d-sm-flex fs-4">
       <BrowserRouter>
        <HashLink className="Nav-font" to="#Bio-about-me">About</HashLink>
-       <a className="Nav-font" href="https://github.com/JoHeyJo/myWebsiteReact/blob/main/resume.pdf">Resume</a>
+       <a className="Nav-font" href="https://github.com/JoHeyJo/myWebsiteReact/raw/main/resume.pdf"> Download Resume</a>
        <HashLink className="Nav-font" to="#footer-content">Contact</HashLink>
        <HashLink className="Nav-font" to="#footer-content">Experience</HashLink>
       </BrowserRouter>
