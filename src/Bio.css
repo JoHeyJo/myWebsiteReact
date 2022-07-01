@@ -1,6 +1,4 @@
 #Bio-about-me {
-  /* border: 5px solid black; */
-  /* padding: 3em; */
   font-size: .5em;
   background-color: aqua;
   margin-bottom: 25vh;
@@ -9,11 +7,10 @@
 li {
   list-style: none;
   font-size: calc(100% + 1vw + 1vh);
-  /* border-left: 2px dashed black; */
-      margin-top: 1%;
-        border-left: solid;
-        padding: 0px;
-        padding-left: 1%;
+  margin-top: 1%;
+  border-left: solid;
+  padding: 0px;
+  padding-left: 1%;
 }
 
 @media (max-width: 544px) {
@@ -24,15 +21,3 @@ li {
     padding-left: 1%;
   }
 }
-
-/* li.arrow::before {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 6px;
-  height: 5px;
-  width: 5px;
-  border: 1px solid #f9dd94;
-  border-width: 2px 2px 0 0;
-  transform: rotate(45deg);
-} */
