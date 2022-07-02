@@ -1,6 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Home from "./Home"
-import Projects from './Projects';
+import Portfolio from './Portfolio';
 import './Nav.css'
 
 import { BrowserRouter, Route, Routes } from "react-router-dom";
@@ -11,7 +11,7 @@ function App() {
 
     <BrowserRouter>
       <Routes>
-        <Route path="/projects" element={<Projects/>}/>
+        <Route path="/projects" element={<Portfolio/>}/>
         <Route path="/" element={<Home/>}/>
       </Routes>
     </BrowserRouter>
