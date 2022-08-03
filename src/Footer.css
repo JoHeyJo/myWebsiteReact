@@ -7,28 +7,14 @@
 }
 /* TODO:fix alignment to  */
 #footer-content {
-    /* position: ; */
     display: flex;
     justify-content: space-around;
     align-items: flex-end;
     height: 50px;
     letter-spacing: 5px;
     position: sticky;
-    /* background-color: aqua; */
     bottom: 0;
-    /* background-color: aqua; */
-    /* position: sticky; */
-    /*width: 100%;  <<<  this maintains bar in old code base */
-    
-    /* border-style: none; */
     letter-spacing: 1.25em;
-    /* margin-top: auto; */
-    /* width: 100%; */
-    /* background-color: aqua; */
-    /* border-style: solid; */
-    /* text-align: center; */
-    /* border-left: none; */
-    /* border-right: none; */
 }
 
 #Footer-container{
@@ -36,13 +22,6 @@
     border-bottom: 2px solid black;
     bottom: 0;
     position: fixed;
-    /*margin-top: auto;*/
-    /* width: 1000px; */
     height: 50px;
     background-color: aqua;
-
-    /* text-align: center; */
-    /*letter-spacing: 5px;*/
-    /*border-left: none;*/
-    /*border-right: none;*/
 }

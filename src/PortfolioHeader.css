@@ -1,7 +1,9 @@
-.Header-bar {
+.Portfolio-Header-bar {
+  display: flex;
+  justify-content: space-between;
   border-top: 2px solid black;
   border-bottom: 2px solid black;
-  position: fixed;
+  position: inherit;
   text-align: center;
   letter-spacing: 1.5em;
   text-transform: uppercase;
@@ -9,5 +11,3 @@
   background-color: aqua;
   font-weight: 400;
 }
-
-
