@@ -2,10 +2,10 @@ import React from "react";
 import Nav from "./Nav";
 import PortfolioHeader from "./PortfolioHeader";
 import Portfolio from "./Portfolio";
-import Footer from "./Footer";
+import PortfolioFooter from "./PortfolioFooter";
 import './Footer.css'
 import './PortfolioHeader.css'
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row } from "react-bootstrap";
 
 function PortfolioDisplay(){
   return(
@@ -23,8 +23,9 @@ function PortfolioDisplay(){
       </Row>
       <Row>
         <Row id='Footer-container'></Row>
-        <Footer/>
+        <PortfolioFooter/>
       </Row>
+
     </Container>
   )
 }
