@@ -21,3 +21,27 @@ img {
   /* margin-top: 4.3%; */
   /* margin-bottom: 10%; */
 }
+
+.details {
+  /* text-align: start; */
+  /* align-self: center; */
+  flex-direction: column;
+  padding-left: 0;
+}
+
+.details-font {
+  /* font-size: 2rem; */
+  font-size: 1.25rem;
+  /* padding-left: 0; */
+}
+
+.col {
+  align-self: center;
+  text-align: start;
+
+}
+
+a {
+ /* text-decoration: none; */
+ color: #011016;
+}

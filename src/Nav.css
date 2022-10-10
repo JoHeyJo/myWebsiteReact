@@ -36,3 +36,11 @@
 a {
   color: rgba(0, 0, 0, 0.0);
 }
+
+.container {
+  background-color: aqua;
+}
+
+/* .col {
+  align-self: center;
+} */

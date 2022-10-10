@@ -10,9 +10,9 @@ function Bio() {
         <li className="arrow">Hi! I'm Joannes.</li>
         <li>Welcome to my page!</li>
         <li>11 year veteran of the bar industry</li>
-        <li>Pursuing my childhood dream to play with computers. </li>
-        <li>Recently graduated an immersive fullstack web development program at Rithm School</li>
-        <li>Currently working towards being a fullstack software engineer.</li>
+        <li>Pursuing my childhood dream to play with computers </li>
+        <li>Graduated from an immersive full stack web development program at Rithm School</li>
+        <li>I am a full stack developer and I want to build software that makes technology more accessible to everyone</li>
       </ul>
 
     </section>
