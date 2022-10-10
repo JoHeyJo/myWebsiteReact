@@ -1,18 +1,11 @@
 WIP:
--Banner font size isn't perfect
+-Banner font size isn't "perfect"
 
--Drop down for Nav
+-DOM effects for Nav
 
--Some dom effects for Nav
+Scale for mobile:
 
--completely broken in landscape mode
-
-
-Hacked it:
--Target entire background from on style(currently spread across every file.)
-
-
-
+-Drop down for Nav(for mobile)
 
 
 # Getting Started with Create React App
