@@ -106,8 +106,8 @@ function Portfolio() {
                 <li className="details-font ">Auth with JSON Web Tokens & password encryption with BCrypt.</li>
                 <li className="details-font ">Relational database built with Flask and SQLAlchemy. </li>
               </ul>
-              <Button href="https://sharebb-fe.vercel.app/" variant="info">Demo</Button>{' '}
-              <Button href="https://github.com/JoHeyJo/shareBB" variant="info">GitHub</Button>
+              <Button href="https://sharebb-fe.vercel.app/" variant="outline-light">Demo</Button>{' '}
+              <Button href="https://github.com/JoHeyJo/shareBB" variant="outline-light">GitHub</Button>
             </>
           }
           {/* jobly */}
@@ -119,8 +119,8 @@ function Portfolio() {
                 <li className="details-font ">All Routes protected with JSON Web Tokens.</li>
                 <li className="details-font ">Passwords encrypted using BCrypt.</li>
               </ul>
-              <Button href="https://jobly-frontend.vercel.app/" variant="info">Demo</Button>{' '}
-              <Button href="https://github.com/JoHeyJo/jobly-frontend" variant="info">GitHub</Button>
+              <Button href="https://jobly-frontend.vercel.app/" variant="outline-light">Demo</Button>{' '}
+              <Button href="https://github.com/JoHeyJo/jobly-frontend" variant="outline-light">GitHub</Button>
             </>
           }
           {/* warbler */}
@@ -132,8 +132,8 @@ function Portfolio() {
                 <li className="details-font ">Client-side and server-side auth with Flask session, local storage, Flask global variables</li>
                 <li className="details-font ">Unit and integration testing done with Python Unittest.</li>
               </ul>
-              <Button href="https://warbler-warbler.herokuapp.com/signup" variant="info">Demo</Button>{' '}
-              <Button href="https://github.com/JoHeyJo/warbler" variant="info">GitHub</Button>
+              <Button href="https://warbler-warbler.herokuapp.com/signup" variant="outline-light">Demo</Button>{' '}
+              <Button href="https://github.com/JoHeyJo/warbler" variant="outline-light">GitHub</Button>
             </>
           }
           {/* memory game */}
@@ -145,8 +145,8 @@ function Portfolio() {
                 <li className="details-font ">Interactive UI visually “flips” cards, matches identical cards, and executes win condition</li>
                 <li className="details-font "></li>
               </ul>
-              <Button href="https://memory-game-react-woad.vercel.app/" variant="info">Demo</Button>{' '}
-              <Button href="https://github.com/JoHeyJo/memory-game-react" variant="info">GitHub</Button>
+              <Button href="https://memory-game-react-woad.vercel.app/" variant="outline-light">Demo</Button>{' '}
+              <Button href="https://github.com/JoHeyJo/memory-game-react" variant="outline-light">GitHub</Button>
             </>
           }
         </Col>

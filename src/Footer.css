@@ -1,11 +1,16 @@
 #Footer-bar {
+    /* border-bottom: 2px solid black; */
     bottom: 0;
     height: 50px;
     padding: 0;
-    background-color: aqua;
+    /* position: fixed; */
+
+    
 }
 
 #Portfolio-Footer-bar {
+    /* border-top: 2px solid black; */
+    /* border-bottom: 2px solid black; */
     bottom: 0;
     height: 50px;
     padding: 0;
@@ -13,6 +18,7 @@
 }
 
 #footer-content {
+    border-bottom: 2px solid black;
     display: flex;
     justify-content: space-around;
     align-items: flex-end;
@@ -25,9 +31,44 @@
 
 #Footer-container{
     border-top: 2px solid black;
-    border-bottom: 2px solid black;
+    /* border-bottom: 2px solid black; */
     bottom: 0;
     position: fixed;
     height: 50px;
-    background-color: aqua;
+
+
+    
+}
+#Portfolio-footer-container- {
+    /* border-top: 2px solid black; */
+    bottom: 0;
+    position: fixed;
+    height: 50px;
+    /* border-bottom: 2px solid black; */
+
+
+    
+}
+
+#Portfolio-footer-content {
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    display: flex;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    bottom: 0;
+    letter-spacing: 1.25em;
+    align-items: flex-end;
+    height: 50px;
+}
+
+#Portfolio-Footer-bar {
+    bottom: 0;
+    height: 50px;
+    padding: 0;
+    /* position: fixed; */
+
+
 }
