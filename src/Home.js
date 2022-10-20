@@ -20,7 +20,7 @@ function Home() {
           <Nav className=".d-sm-none.d-md-block" />
         </Col >
 
-        <Col id="banner-bio" sm={10} style={{ backgroundColor: "aqua" }}>
+        <Col id="banner-bio" sm={10}>
           <Banner />
           <Bio />
         </Col>

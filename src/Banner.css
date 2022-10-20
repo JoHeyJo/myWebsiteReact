@@ -6,13 +6,17 @@
   font-family: 'Roboto Condensed', sans-serif;
   text-transform: uppercase;
   letter-spacing: -15px;
-  background-color: aqua;
+  
   margin-top: 10vh;
   margin-bottom: 50vh;
 }
 
 #Banner-text {
   font-size: calc(100% + 10vw + 10vh);
+}
+
+#banner-bio {
+  border-bottom: 2px solid black
 }
 /* 
 hidden-text {

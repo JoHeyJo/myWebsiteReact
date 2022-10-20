@@ -6,6 +6,7 @@ import PortfolioFooter from "./PortfolioFooter";
 import './Footer.css'
 import './PortfolioHeader.css'
 import { Container, Row } from "react-bootstrap";
+import Footer from "./Footer";
 
 function PortfolioDisplay(){
   return(
@@ -22,8 +23,9 @@ function PortfolioDisplay(){
         {/* </Col> */}
       </Row>
       <Row>
-        <Row id='Footer-container'></Row>
+        {/* <Row id='Footer-container'></Row> */}
         <PortfolioFooter/>
+        {/* <Footer/> */}
       </Row>
 
     </Container>
