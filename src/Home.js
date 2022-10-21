@@ -4,6 +4,7 @@ import Banner from "./Banner"
 import Nav from './Nav';
 import Bio from './Bio';
 import Footer from './Footer'
+import Contact from "./Contact";
 import { Container, Row, Col } from 'react-bootstrap'
 
 function Home() {
@@ -23,6 +24,7 @@ function Home() {
         <Col id="banner-bio" sm={10}>
           <Banner />
           <Bio />
+          <Contact />
         </Col>
       </Row>
       
