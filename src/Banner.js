@@ -6,7 +6,7 @@ function Banner(){
   return (
     // <section className="Banner-container" id="Banner-text">
     <section className="Banner-container bannerFs">
-      fullstack <br/>swe 
+      fullstack <br/>swe <span>JavaScript | React | Python | Flask</span>
     </section>
   )
 }

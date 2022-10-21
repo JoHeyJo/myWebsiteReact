@@ -12,7 +12,7 @@ function Nav() {
       <HashLink className="Nav-font" to="#Bio-about-me">About</HashLink>
       <a className="Nav-font"
         href="https://github.com/JoHeyJo/myWebsiteReact/raw/main/Joannes_Figueroa_Resume.pdf"
-      > Download Resume</a>
+      >Resume</a>
       <HashLink className="Nav-font" to="#footer-content">Contact</HashLink>
       <Link className="Nav-font" to="/portfolio">Portfolio</Link>
     </Navbar>

@@ -16,7 +16,12 @@
 }
 
 #banner-bio {
-  border-bottom: 2px solid black
+  border-bottom: 2px solid #323232;
+}
+
+span {
+  font-size: 20px;
+  letter-spacing: 15px;
 }
 /* 
 hidden-text {

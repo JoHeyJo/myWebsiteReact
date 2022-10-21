@@ -1,6 +1,6 @@
 .Header-bar {
-  border-top: 2px solid black;
-  border-bottom: 2px solid black;
+  border-top: 2px solid #323232;;
+  border-bottom: 2px solid #323232;;
   position: fixed;
   text-align: center;
   letter-spacing: 1.5em;
