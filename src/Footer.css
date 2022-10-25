@@ -18,7 +18,7 @@
 }
 
 #footer-content {
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid #323232;
     display: flex;
     justify-content: space-around;
     align-items: flex-end;
@@ -30,7 +30,7 @@
 }
 
 #Footer-container{
-    border-top: 2px solid black;
+    border-top: 2px solid #323232;
     /* border-bottom: 2px solid black; */
     bottom: 0;
     position: fixed;

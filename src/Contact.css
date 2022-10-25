@@ -1,0 +1,44 @@
+/* * {
+  border: 2px solid 323232;
+} */
+
+#contact-container {
+  display: flex;
+  justify-content: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  /* outline: none; */
+}
+
+.sender-info, textarea {
+color: black;
+background-color: #E0E1DC;
+width: -webkit-fill-available;
+border-radius: 1%;
+  border: 1px solid;
+    padding: 10px;
+    /* box-shadow: 1px 1px 1px 5px #aaaaaa; */
+    /* box-shadow: 3px 6px #323232; */
+    box-shadow: 3px 6px rgba(50, 50, 50, .5);
+/* outline: none; */
+}
+
+.form-inputs {
+  padding: 10px;
+  /* margin-bottom: 10px; */
+}
+
+#submit-button {
+  /* background-color: transparent; */
+  border: 2px solid 323232;
+  margin: 25px;
+  padding: 5px, 50px;
+}
+
+/* *:focus {
+  outline: none;
+} */
