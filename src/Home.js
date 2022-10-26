@@ -23,7 +23,7 @@ function Home() {
 
         <Col id="banner-bio" sm={10}>
           <Banner />
-          <Bio />
+          <Bio id="Bio-about" />
           <Contact />
         </Col>
       </Row>

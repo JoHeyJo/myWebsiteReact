@@ -67,6 +67,8 @@ function Contact() {
             <option value='' disabled selected hidden>What is this about:</option>
             <option value='employment'>Job Opportunity</option>
             <option value='freelance'>Freelance</option>
+            <option value='inquiry'>Talk shop</option>
+            <option value='bug'>Report an issue</option>
             <option value='other'>Just wanted to say hi!</option>
           </select>
         </div>

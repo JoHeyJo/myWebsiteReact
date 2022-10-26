@@ -1,5 +1,6 @@
 .Nav-navbar {
-
+    /* font-family: 'Roboto Condensed', sans-serif; */
+      /* text-transform: uppercase; */
   flex-direction: column;
   margin-top: 40vh;
   position: fixed;
