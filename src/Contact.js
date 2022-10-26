@@ -48,8 +48,8 @@ function Contact() {
 
   return (
     <section id='contact-container'>
-
       <form onSubmit={sendEmail}>
+        <div id='greeting-text'>Get in touch!</div>
 
         <div className='form-inputs'>
           {/* <label className='sender-info' htmlFor="sender-name"></label> */}
@@ -60,6 +60,15 @@ function Contact() {
             name="from_name"
             value={form.from_name}
             placeholder='Name:' />
+        </div>
+
+        <div className='form-inputs'>
+          <select required id='subject' name='subject' className='sender-info'>
+            <option value='' disabled selected hidden>What is this about:</option>
+            <option value='employment'>Job Opportunity</option>
+            <option value='freelance'>Freelance</option>
+            <option value='other'>Just wanted to say hi!</option>
+          </select>
         </div>
 
         <div className='form-inputs'>
@@ -81,8 +90,8 @@ function Contact() {
             onChange={handleChange}
             name="message"
             value={form.message} />
-          {/* <input id='submit-button' type="submit" value="Send" /> */}
           <Button className='m-2' variant="outline-light">Send</Button>
+          <Button className='m-2' variant="outline-dark">Clear</Button>
         </div>
       </form>
     </section>
