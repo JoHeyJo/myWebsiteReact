@@ -1,0 +1,43 @@
+
+#contact-container {
+  display: flex;
+  padding-left: 6.25rem;
+  margin-bottom: 400px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+#greeting-text {
+  font-size: 1.5rem;
+}
+
+.sender-info,
+textarea {
+  color: black;
+  background-color: #E0E1DC;
+  width: -webkit-fill-available;
+  border-radius: 1%;
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 3px 6px rgba(50, 50, 50, .5);
+}
+
+.form-inputs {
+  padding: 10px;
+}
+
+#submit-button {
+  border: 2px solid 323232;
+  margin: 25px;
+  padding: 5px, 50px;
+}
+
+/* Greys out the font of the default selection */
+select:invalid{
+  color: grey;
+  border: 1px solid black;
+}
