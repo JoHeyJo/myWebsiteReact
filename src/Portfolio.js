@@ -23,8 +23,7 @@ function Portfolio() {
     <Container >
       <Row>
         <Col>
-          <Navbar className="details">
-            {/* <section> */}
+          <Navbar className="portfolio-nav">
               <Link onClick={(e) => handleSelect(0)} className="Nav-font fs-4" to=""
               >ShareBB</Link>
               <Link onClick={(e) => handleSelect(1)} className="Nav-font fs-4" to=""
@@ -33,7 +32,6 @@ function Portfolio() {
               >Warbler</Link>
               <Link onClick={(e) => handleSelect(3)} className="Nav-font fs-4" to=""
               >Memory Game</Link>
-            {/* </section> */}
           </Navbar>
         </Col>
         <Col>
