@@ -1,13 +1,14 @@
 .Nav-navbar {
-    /* font-family: 'Roboto Condensed', sans-serif; */
-      /* text-transform: uppercase; */
+  display: flex;
+  align-items: flex-start;
   flex-direction: column;
   margin-top: 40vh;
   position: fixed;
 }
 
 .Nav-sidebar {
-  border-bottom: 2px solid #323232;;
+  border-bottom: 2px solid #323232;
+  ;
   display: flex;
   justify-content: center;
 }
