@@ -23,16 +23,14 @@ img {
 }
 
 .details {
-  /* text-align: start; */
-  /* align-self: center; */
+  display: flex;
+  align-items: flex-start;
   flex-direction: column;
-  padding-left: 0;
+  padding-left: 50%;
 }
 
 .details-font {
-  /* font-size: 2rem; */
   font-size: 1.25rem;
-  /* padding-left: 0; */
 }
 
 .col {

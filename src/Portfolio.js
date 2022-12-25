@@ -24,14 +24,16 @@ function Portfolio() {
       <Row>
         <Col>
           <Navbar className="details">
-            <Link onClick={(e) => handleSelect(0)} className="Nav-font fs-4" to=""
-            >ShareBB</Link>
-            <Link onClick={(e) => handleSelect(1)} className="Nav-font fs-4" to=""
-            >Jobly</Link>
-            <Link onClick={(e) => handleSelect(2)} className="Nav-font fs-4" to=""
-            >Warbler</Link>
-            <Link onClick={(e) => handleSelect(3)} className="Nav-font fs-4" to=""
-            >Memory Game</Link>
+            {/* <section> */}
+              <Link onClick={(e) => handleSelect(0)} className="Nav-font fs-4" to=""
+              >ShareBB</Link>
+              <Link onClick={(e) => handleSelect(1)} className="Nav-font fs-4" to=""
+              >Jobly</Link>
+              <Link onClick={(e) => handleSelect(2)} className="Nav-font fs-4" to=""
+              >Warbler</Link>
+              <Link onClick={(e) => handleSelect(3)} className="Nav-font fs-4" to=""
+              >Memory Game</Link>
+            {/* </section> */}
           </Navbar>
         </Col>
         <Col>
