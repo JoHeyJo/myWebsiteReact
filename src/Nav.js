@@ -3,7 +3,7 @@ import { HashLink } from "react-router-hash-link";
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import { Navbar } from "react-bootstrap";
 
-import "./Nav.css"
+// import "./Nav.css"
 
 
 function Nav() {

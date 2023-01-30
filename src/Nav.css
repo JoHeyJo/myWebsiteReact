@@ -8,15 +8,16 @@
 
 .Nav-sidebar {
   border-bottom: 2px solid #323232;
-  ;
   display: flex;
   justify-content: center;
 }
 
 .Nav-font {
-  color: black;
   text-decoration: none;
-  transition: 8s;
   color: white;
+}
 
+.Nav-font:hover {
+  transition: .25s;
+  color: #323232;
 }
