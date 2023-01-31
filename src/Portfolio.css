@@ -1,5 +1,5 @@
 .imgCard {
-  padding-top: 5rem;
+  padding-top: 2.5rem;
 
   text-align: center;
   user-select: "text";
@@ -11,15 +11,10 @@
 }
 
 img {
-  width: 450px;
+  width: auto;
   height: 650px;
   border: thick double #011016;
-}
-
-#portfolio-container {
-  /* position: static; */
-  /* margin-top: 4.3%; */
-  /* margin-bottom: 10%; */
+  object-fit: contain;
 }
 
 .portfolio-nav {
@@ -38,7 +33,6 @@ img {
 
 .details-font {
   font-size: 1.25rem;
-  /* padding-left: 50%; */
 }
 
 .col {
@@ -48,6 +42,5 @@ img {
 }
 
 a {
-  /* text-decoration: none; */
   color: #011016;
 }
