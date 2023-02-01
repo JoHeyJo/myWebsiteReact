@@ -5,7 +5,7 @@
   }
 }
 
-  @media (min-width: 544px) {
+@media (min-width: 544px) {
   .fs {
     font-size: .5rem;
   }
@@ -29,13 +29,18 @@
   }
 }
 
-/* font size for Banner */
-@media (max-width: 544px){
-  .bannerFs{
+/* Banner styles and font size */
+
+.bannerFs {
+  padding-top: 3.125rem;
+}
+
+@media (max-width: 544px) {
+  .bannerFs {
     padding-top: 15%;
-    
   }
 }
+
 @media (min-width: 320px) {
   .bannerFs {
     font-size: 6rem;
@@ -47,7 +52,6 @@
   .bannerFs {
     font-size: 9rem;
     letter-spacing: -2px;
-    /* text-align: initial; */
   }
 }
 
@@ -55,19 +59,105 @@
   .bannerFs {
     font-size: 12rem;
     letter-spacing: -3px;
-    
-    /* text-align: initial; */
   }
 }
 
 @media (min-width: 1200px) {
   .bannerFs {
-    font-size: 16em;
+    font-size: 14em;
   }
 }
 
 @media (min-width: 1400px) {
   .bannerFs {
-    /* font-size: 1rem; */
+    padding-top: 5%;
+    font-size: 12em;
+  }
+
+  @media (min-width: 1645px) {
+    .bannerFs {
+      padding-top: 5%;
+      font-size: 16rem;
+    }
   }
 }
+
+@media (min-width: 1700px) {
+  .bannerFs {
+    padding-top: 5%;
+    font-size: 18rem;
+  }
+}
+
+
+/* font size for tech stack */
+@media (min-width: 320px) {
+  .fSStack {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 544px) {
+  .fSStack {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .fSStack {
+    font-size: 1rem;
+    letter-spacing: 1rem;
+    /* position: absolute;
+    display: inline-flex;
+    flex-direction: column;
+    padding-top: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    top: 516px;
+    padding-left: 25px; */
+  }
+}
+
+@media (max-width: 1400px) {
+  .fSStack {
+    font-size: 4rem;
+    letter-spacing: 1rem;
+    font-size: 1.5rem;
+    position: absolute;
+    display: inline-flex;
+    flex-direction: column;
+    padding-top: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    top: 28.563rem;
+    padding-left: 25px;
+  }
+  .pipes {
+    color: darkcyan;
+  }
+}
+
+@media (min-width: 1400px) {
+  .fSStack {
+    font-size: .8rem;
+    letter-spacing: 1rem;
+  }
+}
+
+@media (min-width: 1645px) {
+  .fSStack {
+    font-size: 1.1rem;
+    letter-spacing: 1rem;
+  }
+}
+
+@media (min-width: 1784px) {
+  .fSStack {
+    font-size: 1.1rem;
+    letter-spacing: 1.1rem;
+  }
+}
+
+/* The min-width property defines the minimum width of an element. If the content is smaller than the minimum width,
+the minimum width will be applied. If the content is larger than the minimum width,
+the min-width property has no effect. */
