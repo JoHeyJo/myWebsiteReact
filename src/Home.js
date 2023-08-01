@@ -5,7 +5,7 @@ import Nav from './Nav';
 import Bio from './Bio';
 import Footer from './Footer'
 import Contact from "./Contact";
-import { Container, Row, Col } from 'react-bootstrap'
+import { Container, Row, Col } from 'react-bootstrap';
 
 function Home() {
   return (
