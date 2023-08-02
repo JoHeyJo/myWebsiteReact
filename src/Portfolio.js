@@ -5,6 +5,7 @@ import memoryGameImg from "./img/memoryGameImg.png";
 import sharebbImg from "./img/sharebbImg.png";
 import joblyImg from "./img/joblyImg.png";
 import warblerImg from "./img/warblerImg.png";
+import bugly from "./img/buglyImg.png";
 import "./Portfolio.css";
 import "./Header.css";
 import "./Nav.css";
@@ -24,14 +25,16 @@ function Portfolio() {
       <Row>
         <Col>
           <Navbar className="portfolio-nav">
-              <Link onClick={(e) => handleSelect(0)} className="Nav-font fs-4" to=""
-              >ShareBB</Link>
-              <Link onClick={(e) => handleSelect(1)} className="Nav-font fs-4" to=""
-              >Jobly</Link>
-              <Link onClick={(e) => handleSelect(2)} className="Nav-font fs-4" to=""
+            <Link onClick={(e) => handleSelect(0)} className="Nav-font fs-4" to=""
+            >Bugly</Link>
+            <Link onClick={(e) => handleSelect(1)} className="Nav-font fs-4" to=""
+            >ShareBB</Link>
+            <Link onClick={(e) => handleSelect(2)} className="Nav-font fs-4" to=""
+            >Jobly</Link>
+            {/* <Link onClick={(e) => handleSelect(2)} className="Nav-font fs-4" to=""
               >Warbler</Link>
               <Link onClick={(e) => handleSelect(3)} className="Nav-font fs-4" to=""
-              >Memory Game</Link>
+              >Memory Game</Link> */}
           </Navbar>
         </Col>
         <Col>
@@ -43,7 +46,20 @@ function Portfolio() {
             interval={null}>
 
             <Carousel.Item>
-              <a href="https://sharebb-fe-git-main-jpf0628-gmailcom.vercel.app/">
+              <a href="https://bugly-olive.vercel.app/" target="_blank">
+                <img
+                  src={bugly}
+                  alt="bugly slide"
+                />
+              </a>
+              <Carousel.Caption className="caption">
+                <h3>Blog application</h3>
+                <p>Browse projects and their corresponding bugs.</p>
+              </Carousel.Caption>
+            </Carousel.Item>
+
+            <Carousel.Item>
+              <a href="https://sharebb-fe-git-main-jpf0628-gmailcom.vercel.app/" target="_blank">
                 <img
                   src={sharebbImg}
                   alt="sharebb slide"
@@ -56,7 +72,7 @@ function Portfolio() {
             </Carousel.Item>
 
             <Carousel.Item>
-              <a href="https://jobly-frontend.vercel.app/">
+              <a href="https://jobly-frontend.vercel.app/" target="_blank">
                 <img
                   src={joblyImg}
                   alt="jobly slide"
@@ -68,7 +84,7 @@ function Portfolio() {
               </Carousel.Caption>
             </Carousel.Item>
 
-            <Carousel.Item>
+            {/* <Carousel.Item>
               <a href="https://warbler-warbler.herokuapp.com/signup">
                 <img
                   src={warblerImg}
@@ -79,8 +95,8 @@ function Portfolio() {
                 <h3>Warbler: Twitter clone </h3>
                 <p>Create user, follow user, add a message!</p>
               </Carousel.Caption>
-            </Carousel.Item>
-
+            </Carousel.Item> */}
+            {/* 
             <Carousel.Item>
               <a href="https://memory-game-react-woad.vercel.app/">
                 <img
@@ -92,26 +108,39 @@ function Portfolio() {
                 <h3>Memory Game</h3>
                 <p>Match randomly generated cards!</p>
               </Carousel.Caption>
-            </Carousel.Item>
+            </Carousel.Item> */}
 
           </Carousel>
         </Col>
         <Col>
-          {/* sharebb */}
+          {/* bugly */}
           {index === 0 &&
             <>
               <ul className="details">
-                <li className="details-font ">React | JavaScript | Flask | SQLAlchemy | Python </li>
+                <li className="details-font-small ">React | TypeScript | Python | Flask | SQLAlchemy </li>
+                <li className="details-font-small ">Catalogs and organizes projects and all its corresponding posts (aka bugs). </li>
+                <li className="details-font-small ">Admin actions are protected by client-side & server-side validation with JSON Web Tokens.</li>
+                <li className="details-font-small ">Relational database built with Flask, SQLAlchemy, and SQL.</li>
+              </ul>
+            <Button href="https://bugly-olive.vercel.app/" target="_blank" variant="outline-light">Demo</Button>{' '}
+            <Button href="https://github.com/JoHeyJo/bugly" target="_blank" variant="outline-light">GitHub</Button>
+            </>
+          }
+          {/* sharebb */}
+          {index === 1 &&
+            <>
+              <ul className="details">
+                <li className="details-font ">React | JavaScript | Python | Flask | SQLAlchemy </li>
                 <li className="details-font ">Features user signup, authorization, and authentication.  </li>
                 <li className="details-font ">Auth with JSON Web Tokens & password encryption with BCrypt.</li>
                 <li className="details-font ">Relational database built with Flask and SQLAlchemy. </li>
               </ul>
-              <Button href="https://sharebb-fe.vercel.app/" variant="outline-light">Demo</Button>{' '}
-              <Button href="https://github.com/JoHeyJo/shareBB" variant="outline-light">GitHub</Button>
+            <Button href="https://sharebb-fe.vercel.app/" target="_blank" variant="outline-light">Demo</Button>{' '}
+            <Button href="https://github.com/JoHeyJo/shareBB" target="_blank" variant="outline-light">GitHub</Button>
             </>
           }
           {/* jobly */}
-          {index === 1 &&
+          {index === 2 &&
             <>
               <ul className="details">
                 <li className="details-font ">React | JavaScript | Express | SQL </li>
@@ -119,12 +148,12 @@ function Portfolio() {
                 <li className="details-font ">All Routes protected with JSON Web Tokens.</li>
                 <li className="details-font ">Passwords encrypted using BCrypt.</li>
               </ul>
-              <Button href="https://jobly-frontend.vercel.app/" variant="outline-light">Demo</Button>{' '}
-              <Button href="https://github.com/JoHeyJo/jobly-frontend" variant="outline-light">GitHub</Button>
+            <Button href="https://jobly-frontend.vercel.app/" target="_blank"  variant="outline-light">Demo</Button>{' '}
+            <Button href="https://github.com/JoHeyJo/jobly-frontend" target="_blank"  variant="outline-light">GitHub</Button>
             </>
           }
           {/* warbler */}
-          {index === 2 &&
+          {index === 3 &&
             <>
               <ul className="details">
                 <li className="details-font ">Python | Flask | Jinja | SQLAlchemy | PostgreSQL </li>
@@ -132,12 +161,12 @@ function Portfolio() {
                 <li className="details-font ">Client-side and server-side auth with Flask session, local storage, Flask global variables</li>
                 <li className="details-font ">Unit and integration testing done with Python Unittest.</li>
               </ul>
-              <Button href="https://warbler-warbler.herokuapp.com/signup" variant="outline-light">Demo</Button>{' '}
-              <Button href="https://github.com/JoHeyJo/warbler" variant="outline-light">GitHub</Button>
+            <Button href="https://warbler-warbler.herokuapp.com/signup" target="_blank"  variant="outline-light">Demo</Button>{' '}
+            <Button href="https://github.com/JoHeyJo/warbler" target="_blank"  variant="outline-light">GitHub</Button>
             </>
           }
           {/* memory game */}
-          {index == 3 &&
+          {index == 4 &&
             <>
               <ul className="details">
                 <li className="details-font ">React | TypeScript </li>
@@ -145,8 +174,8 @@ function Portfolio() {
                 <li className="details-font ">Interactive UI visually “flips” cards, matches identical cards, and executes win condition</li>
                 <li className="details-font "></li>
               </ul>
-              <Button href="https://memory-game-react-woad.vercel.app/" variant="outline-light">Demo</Button>{' '}
-              <Button href="https://github.com/JoHeyJo/memory-game-react" variant="outline-light">GitHub</Button>
+            <Button href="https://memory-game-react-woad.vercel.app/" target="_blank"  variant="outline-light">Demo</Button>{' '}
+            <Button href="https://github.com/JoHeyJo/memory-game-react" target="_blank"  variant="outline-light">GitHub</Button>
             </>
           }
         </Col>
