@@ -1,6 +1,5 @@
 .imgCard {
   padding-top: 3rem;
-
   text-align: center;
   user-select: "text";
 }
@@ -10,11 +9,24 @@
   color: black;
 }
 
+.carousel-item {
+  width: 1000px;
+  /* height: 850px; */
+}
+
 img {
   width: auto;
   height: 650px;
   border: thick double #011016;
   object-fit: contain;
+  /* width: 100%;
+    height: 100%;
+    object-fit: cover; */
+  /* Ensure images fill the container while maintaining aspect ratio */
+}
+
+.preview-container {
+  height: 90vh;
 }
 
 .portfolio-nav {
@@ -47,4 +59,8 @@ img {
 
 a {
   color: #011016;
+}
+
+.login-info {
+  font-size: small;
 }

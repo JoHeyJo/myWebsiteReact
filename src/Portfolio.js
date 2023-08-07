@@ -37,7 +37,7 @@ function Portfolio() {
               >Memory Game</Link> */}
           </Navbar>
         </Col>
-        <Col>
+        <Col className="preview-container">
           <Carousel
             activeIndex={index}
             onSelect={handleSelect}
@@ -68,6 +68,7 @@ function Portfolio() {
               <Carousel.Caption className="caption">
                 <h3>AirBnB clone</h3>
                 <p>Create user, browse or add listings!</p>
+                <p className="login-info">Login & browse around. User: Guest PW: guestaccess </p>
               </Carousel.Caption>
             </Carousel.Item>
 
@@ -81,6 +82,7 @@ function Portfolio() {
               <Carousel.Caption className="caption">
                 <h3>Jobly: job listing board</h3>
                 <p>Create user and browse through job listings.</p>
+                <p className="login-info">Login & browse around. User: guest PW: guestaccess </p>
               </Carousel.Caption>
             </Carousel.Item>
 
