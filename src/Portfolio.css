@@ -19,7 +19,8 @@ img {
   /* width: 1000px; */
   /* height: 650px; */
   width: 100%;
-  height: auto;
+  /* height: auto; */
+  max-height: 650px;
   border: thick double #011016;
   /* object-fit: contain; */
   /* width: 100%;
