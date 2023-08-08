@@ -21,9 +21,9 @@ function Portfolio() {
   };
 
   return (
-    <Container >
+    <Container className="">
       <Row>
-        <Col>
+        <Col id="navbar-container">
           <Navbar className="portfolio-nav">
             <Link onClick={(e) => handleSelect(0)} className="Nav-font fs-4" to=""
             >Bugly</Link>
@@ -37,7 +37,7 @@ function Portfolio() {
               >Memory Game</Link> */}
           </Navbar>
         </Col>
-        <Col className="preview-container">
+        <Col className="preview-container" >
           <Carousel
             activeIndex={index}
             onSelect={handleSelect}
@@ -48,8 +48,10 @@ function Portfolio() {
             <Carousel.Item>
               <a href="https://bugly-olive.vercel.app/" target="_blank">
                 <img
+                  // className="img-fluid"
                   src={bugly}
                   alt="bugly slide"
+                  // style={{ height: '650px', width: 'auto' }}
                 />
               </a>
               <Carousel.Caption className="caption">
@@ -114,7 +116,7 @@ function Portfolio() {
 
           </Carousel>
         </Col>
-        <Col>
+        <Col id="details-container">
           {/* bugly */}
           {index === 0 &&
             <>
@@ -123,6 +125,7 @@ function Portfolio() {
                 <li className="details-font-small ">Catalogs and organizes projects and all its corresponding posts (aka bugs). </li>
                 <li className="details-font-small ">Admin actions are protected by client-side & server-side validation with JSON Web Tokens.</li>
                 <li className="details-font-small ">Relational database built with Flask, SQLAlchemy, and SQL.</li>
+                <p>NOTE: Heroku server takes a moment to fire up!</p>
               </ul>
             <Button href="https://bugly-olive.vercel.app/" target="_blank" variant="outline-light">Demo</Button>{' '}
             <Button href="https://github.com/JoHeyJo/bugly" target="_blank" variant="outline-light">GitHub</Button>
@@ -136,6 +139,7 @@ function Portfolio() {
                 <li className="details-font ">Features user signup, authorization, and authentication.  </li>
                 <li className="details-font ">Auth with JSON Web Tokens & password encryption with BCrypt.</li>
                 <li className="details-font ">Relational database built with Flask and SQLAlchemy. </li>
+                <p>NOTE: Heroku server takes a moment to fire up!</p>
               </ul>
             <Button href="https://sharebb-fe.vercel.app/" target="_blank" variant="outline-light">Demo</Button>{' '}
             <Button href="https://github.com/JoHeyJo/shareBB" target="_blank" variant="outline-light">GitHub</Button>
@@ -149,6 +153,7 @@ function Portfolio() {
                 <li className="details-font ">Features React integrated with Express RESTful API.</li>
                 <li className="details-font ">All Routes protected with JSON Web Tokens.</li>
                 <li className="details-font ">Passwords encrypted using BCrypt.</li>
+                <p>NOTE: Heroku server takes a moment to fire up!</p>
               </ul>
             <Button href="https://jobly-frontend.vercel.app/" target="_blank"  variant="outline-light">Demo</Button>{' '}
             <Button href="https://github.com/JoHeyJo/jobly-frontend" target="_blank"  variant="outline-light">GitHub</Button>
