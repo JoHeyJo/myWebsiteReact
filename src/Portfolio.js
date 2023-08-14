@@ -10,7 +10,7 @@ import "./Portfolio.css";
 import "./Header.css";
 import "./Nav.css";
 import Button from 'react-bootstrap/Button';
-
+import bugly_demo from './img/bugly_demo.webm'
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 
 function Portfolio() {
@@ -47,12 +47,12 @@ function Portfolio() {
 
             <Carousel.Item>
               <a href="https://bugly-olive.vercel.app/" target="_blank">
-                <img
-                  // className="img-fluid"
-                  src={bugly}
-                  alt="bugly slide"
-                  // style={{ height: '650px', width: 'auto' }}
-                />
+                <video loop autoPlay muted>
+                  <source
+                    src={bugly_demo}
+                    type="video/mp4"
+                  />
+                </video>
               </a>
               <Carousel.Caption className="caption">
                 <h3>Blog application</h3>
@@ -101,7 +101,7 @@ function Portfolio() {
               </Carousel.Caption>
             </Carousel.Item> */}
             {/* 
-            <Carousel.Item>
+          <Carousel.Item>
               <a href="https://memory-game-react-woad.vercel.app/">
                 <img
                   src={memoryGameImg}
@@ -127,8 +127,8 @@ function Portfolio() {
                 <li className="details-font-small ">Relational database built with Flask, SQLAlchemy, and SQL.</li>
                 <p className="footnote">NOTE: Heroku server takes a moment to fire up!</p>
               </ul>
-            <Button href="https://bugly-olive.vercel.app/" target="_blank" variant="outline-light">Demo</Button>{' '}
-            <Button href="https://github.com/JoHeyJo/bugly" target="_blank" variant="outline-light">GitHub</Button>
+              <Button href="https://bugly-olive.vercel.app/" target="_blank" variant="outline-light">Demo</Button>{' '}
+              <Button href="https://github.com/JoHeyJo/bugly" target="_blank" variant="outline-light">GitHub</Button>
             </>
           }
           {/* sharebb */}
@@ -141,8 +141,8 @@ function Portfolio() {
                 <li className="details-font ">Relational database built with Flask and SQLAlchemy. </li>
                 <p className="footnote">NOTE: Heroku server takes a moment to fire up!</p>
               </ul>
-            <Button href="https://sharebb-fe.vercel.app/" target="_blank" variant="outline-light">Demo</Button>{' '}
-            <Button href="https://github.com/JoHeyJo/shareBB" target="_blank" variant="outline-light">GitHub</Button>
+              <Button href="https://sharebb-fe.vercel.app/" target="_blank" variant="outline-light">Demo</Button>{' '}
+              <Button href="https://github.com/JoHeyJo/shareBB" target="_blank" variant="outline-light">GitHub</Button>
             </>
           }
           {/* jobly */}
@@ -155,8 +155,8 @@ function Portfolio() {
                 <li className="details-font ">Passwords encrypted using BCrypt.</li>
                 <p className="footnote">NOTE: Heroku server takes a moment to fire up!</p>
               </ul>
-            <Button href="https://jobly-frontend.vercel.app/" target="_blank"  variant="outline-light">Demo</Button>{' '}
-            <Button href="https://github.com/JoHeyJo/jobly-frontend" target="_blank"  variant="outline-light">GitHub</Button>
+              <Button href="https://jobly-frontend.vercel.app/" target="_blank" variant="outline-light">Demo</Button>{' '}
+              <Button href="https://github.com/JoHeyJo/jobly-frontend" target="_blank" variant="outline-light">GitHub</Button>
             </>
           }
           {/* warbler */}
@@ -168,8 +168,8 @@ function Portfolio() {
                 <li className="details-font ">Client-side and server-side auth with Flask session, local storage, Flask global variables</li>
                 <li className="details-font ">Unit and integration testing done with Python Unittest.</li>
               </ul>
-            <Button href="https://warbler-warbler.herokuapp.com/signup" target="_blank"  variant="outline-light">Demo</Button>{' '}
-            <Button href="https://github.com/JoHeyJo/warbler" target="_blank"  variant="outline-light">GitHub</Button>
+              <Button href="https://warbler-warbler.herokuapp.com/signup" target="_blank" variant="outline-light">Demo</Button>{' '}
+              <Button href="https://github.com/JoHeyJo/warbler" target="_blank" variant="outline-light">GitHub</Button>
             </>
           }
           {/* memory game */}
@@ -181,8 +181,8 @@ function Portfolio() {
                 <li className="details-font ">Interactive UI visually “flips” cards, matches identical cards, and executes win condition</li>
                 <li className="details-font "></li>
               </ul>
-            <Button href="https://memory-game-react-woad.vercel.app/" target="_blank"  variant="outline-light">Demo</Button>{' '}
-            <Button href="https://github.com/JoHeyJo/memory-game-react" target="_blank"  variant="outline-light">GitHub</Button>
+              <Button href="https://memory-game-react-woad.vercel.app/" target="_blank" variant="outline-light">Demo</Button>{' '}
+              <Button href="https://github.com/JoHeyJo/memory-game-react" target="_blank" variant="outline-light">GitHub</Button>
             </>
           }
         </Col>
