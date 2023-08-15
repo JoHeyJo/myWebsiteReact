@@ -1,24 +1,61 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Container, Row, Col, Navbar } from 'react-bootstrap'
 import Carousel from 'react-bootstrap/Carousel';
 import memoryGameImg from "./img/memoryGameImg.png";
 import sharebbImg from "./img/sharebbImg.png";
 import joblyImg from "./img/joblyImg.png";
 import warblerImg from "./img/warblerImg.png";
-import bugly from "./img/buglyImg.png";
+import buglyImg from "./img/buglyImg.png";
 import "./Portfolio.css";
 import "./Header.css";
 import "./Nav.css";
 import Button from 'react-bootstrap/Button';
-import bugly_demo from './img/bugly_demo.webm'
+import buglyDemo from './img/bugly_demo.webm';
+import sharebbDemo from './img/sharebb_demo.webm';
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 
 function Portfolio() {
   const [index, setIndex] = useState(0);
+  const [isVideoLoaded, setIsVideoLoaded] = useState(false);
 
   const handleSelect = (selectedIndex, e) => {
     setIndex(selectedIndex);
   };
+
+  function handleVideoLoaded() {
+    setIsVideoLoaded(true);
+  }
+
+  /**Checks to see if video has been loaded */
+  function hasVideoLoaded(video){
+    <video loop autoPlay muted onLoadedData={handleVideoLoaded}>
+      <source
+        src={video}
+        type="video/mp4"
+      />
+    </video>
+  }
+
+  /**Renders video if loaded else renders image */
+  function renderVideoOrImage(image, video){
+    return !isVideoLoaded
+      ?
+      <img
+        src={image}
+        alt={`${image} slide`}
+      />
+      :
+      <video loop autoPlay muted onLoadedData={handleVideoLoaded}>
+        <source
+          src={video}
+          type="video/mp4"
+        />
+      </video>
+  }
+
+  useEffect(()=>{
+    renderVideoOrImage(buglyImg, buglyDemo)
+  },[isVideoLoaded])
 
   return (
     <Container className="">
@@ -47,9 +84,9 @@ function Portfolio() {
 
             <Carousel.Item>
               <a href="https://bugly-olive.vercel.app/" target="_blank">
-                <video loop autoPlay muted>
+                <video loop autoPlay muted poster={buglyImg}>
                   <source
-                    src={bugly_demo}
+                    src={buglyDemo}
                     type="video/mp4"
                   />
                 </video>
@@ -62,10 +99,12 @@ function Portfolio() {
 
             <Carousel.Item>
               <a href="https://sharebb-fe-git-main-jpf0628-gmailcom.vercel.app/" target="_blank">
-                <img
-                  src={sharebbImg}
-                  alt="sharebb slide"
-                />
+                <video loop autoPlay muted poster={sharebbImg}>
+                  <source
+                    src={sharebbDemo}
+                    type="video/mp4"
+                  />
+                </video>
               </a>
               <Carousel.Caption className="caption">
                 <h3>AirBnB clone</h3>

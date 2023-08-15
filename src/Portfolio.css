@@ -10,23 +10,31 @@
 }
 
 .carousel-item {
-  /* width: 500px; */
   width: 950px;
-  /* height: 850px; */
+  height: 100%;
+    /* display: flex;
+      justify-content: center;
+      align-items: center; */
+    /* position: relative; */
+      /* width: 100%; */
+      /* padding-bottom: 56.25%; */
+      /* 16:9 aspect ratio */
+      /* overflow: hidden; */
 }
 
 img, video {
-  /* width: 1000px; */
-  /* height: 650px; */
-  /* width: 100%; */
-  /* height: auto; */
-  max-height: 670px;
+
+  /* max-height: 670px; */
+  width: 100%;
   border: thick double #011016;
   /* object-fit: contain; */
-  /* width: 100%;
-    height: 100%;
-    object-fit: cover; */
-  /* Ensure images fill the container while maintaining aspect ratio */
+  /* object-fit: cover; */
+  /* object-fit: fill; */
+    /* position: absolute; */
+      /* top: 0; */
+      /* left: 0; */
+      /* width: 100%; */
+      /* height: 100%; */
 }
 
 .preview-container {
