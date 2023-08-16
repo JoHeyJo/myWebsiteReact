@@ -12,11 +12,11 @@ import "./Nav.css";
 import Button from 'react-bootstrap/Button';
 import buglyDemo from './img/bugly_demo.webm';
 import sharebbDemo from './img/sharebb_demo.webm';
+import joblyDemo from './img/jobly_demo.webm';
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 
 function Portfolio() {
   const [index, setIndex] = useState(0);
-  const [isVideoLoaded, setIsVideoLoaded] = useState(false);
 
   const handleSelect = (selectedIndex, e) => {
     setIndex(selectedIndex);
@@ -25,37 +25,6 @@ function Portfolio() {
   function handleVideoLoaded() {
     setIsVideoLoaded(true);
   }
-
-  /**Checks to see if video has been loaded */
-  function hasVideoLoaded(video){
-    <video loop autoPlay muted onLoadedData={handleVideoLoaded}>
-      <source
-        src={video}
-        type="video/mp4"
-      />
-    </video>
-  }
-
-  /**Renders video if loaded else renders image */
-  function renderVideoOrImage(image, video){
-    return !isVideoLoaded
-      ?
-      <img
-        src={image}
-        alt={`${image} slide`}
-      />
-      :
-      <video loop autoPlay muted onLoadedData={handleVideoLoaded}>
-        <source
-          src={video}
-          type="video/mp4"
-        />
-      </video>
-  }
-
-  useEffect(()=>{
-    renderVideoOrImage(buglyImg, buglyDemo)
-  },[isVideoLoaded])
 
   return (
     <Container className="">
@@ -115,10 +84,12 @@ function Portfolio() {
 
             <Carousel.Item>
               <a href="https://jobly-frontend.vercel.app/" target="_blank">
-                <img
-                  src={joblyImg}
-                  alt="jobly slide"
-                />
+                <video loop autoPlay muted poster={joblyImg}>
+                  <source
+                    src={joblyDemo}
+                    type="video/mp4"
+                  />
+                </video>
               </a>
               <Carousel.Caption className="caption">
                 <h3>Jobly: job listing board</h3>
