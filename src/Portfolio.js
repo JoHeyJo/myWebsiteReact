@@ -25,7 +25,7 @@ function Portfolio() {
   function handleVideoLoaded() {
     setIsVideoLoaded(true);
   }
-// repetitive code consider refactoring 
+
   return (
     <Container className="">
       <Row>
