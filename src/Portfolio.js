@@ -25,7 +25,7 @@ function Portfolio() {
   function handleVideoLoaded() {
     setIsVideoLoaded(true);
   }
-
+// repetitive code consider refactoring 
   return (
     <Container className="">
       <Row>
@@ -203,6 +203,6 @@ function Portfolio() {
 
   );
 }
-
+// repetitive code consider refactoring can each portfolio be it's own component? 
 export default Portfolio;
 
