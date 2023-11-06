@@ -5,7 +5,7 @@ import Nav from './Nav';
 import Bio from './Bio';
 import Footer from './Footer'
 import Contact from "./Contact";
-import 
+import NavDropdown from "./NavDropdown";
 import { Container, Row, Col } from 'react-bootstrap';
 
 function Home() {
@@ -15,7 +15,7 @@ function Home() {
 
       <Row>
         <Header />
-        <Nav className=".d-sm-none.d-md-block" />
+        <NavDropdown />
       </Row>
 
       <Row >
