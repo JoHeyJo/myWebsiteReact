@@ -14,8 +14,14 @@ function Home() {
     <Container fluid>
 
       <Row>
+        <Col xs={12}>
+          {/* <Header /> */}
+          {/* <NavDropdown /> */}
+        </Col>
+        {/* <Col> */}
         <Header />
-        <NavDropdown />
+        {/* </Col> */}
+        {/* <NavDropdown /> */}
       </Row>
 
       <Row >
