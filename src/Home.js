@@ -5,7 +5,6 @@ import Nav from './Nav';
 import Bio from './Bio';
 import Footer from './Footer'
 import Contact from "./Contact";
-import NavDropdown from "./NavDropdownMenu";
 import { Container, Row, Col } from 'react-bootstrap';
 
 function Home() {
