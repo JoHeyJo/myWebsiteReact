@@ -7,7 +7,7 @@ function Header() {
   return (
     <header className="Header-bar">
       <Row className="align-items-center justify-content-center text-center">
-        <Col xs="auto">
+        <Col xs="auto" className="d-block d-md-none">
           <NavDropdownMenu />
         </Col>
         <Col>
