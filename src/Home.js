@@ -17,8 +17,8 @@ function Home() {
       </Row>
 
       <Row >
-        <Col id="nav-sidebar" className='Nav-sidebar .d-sm-none.d-md-block' sm={2}>
-          <Nav className=".d-sm-none.d-md-block" />
+        <Col id="nav-sidebar" className='Nav-sidebar' sm={2}>
+          <Nav className="" />
         </Col >
 
         <Col id="banner-bio" sm={10}>

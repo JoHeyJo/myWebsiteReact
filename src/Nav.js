@@ -8,7 +8,7 @@ import { Navbar } from "react-bootstrap";
 
 function Nav() {
   return (
-    <Navbar className="Nav-navbar d-none d-sm-flex fs-4">
+    <Navbar className="Nav-navbar d-none d-md-flex fs-4">
       <HashLink className="Nav-font" to="#Bio-about-me">About</HashLink>
       <Link className="Nav-font" to="/portfolio">Portfolio</Link>
       <a className="Nav-font"
