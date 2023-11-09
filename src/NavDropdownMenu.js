@@ -3,20 +3,13 @@ import { Navbar, Nav, NavDropdown } from 'react-bootstrap';
 
 function NavDropdownMenu() {
   return (
-    <Navbar expand="md" bg="dark" variant="dark">
-      <Navbar.Brand href="#home">Your Logo</Navbar.Brand>
+    <Navbar expand="sm" bg="dark" variant="dark-outline">
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
-        <Nav className="ml-auto">
-          <Nav.Link href="#home">Home</Nav.Link>
-          <Nav.Link href="#about">About</Nav.Link>
-          <Nav.Link href="#services">Services</Nav.Link>
-          <NavDropdown title="Dropdown" id="basic-nav-dropdown">
+        <Nav className="ml-auto d-sm-none">
             <NavDropdown.Item href="#action/1">Option 1</NavDropdown.Item>
             <NavDropdown.Item href="#action/2">Option 2</NavDropdown.Item>
             <NavDropdown.Item href="#action/3">Option 3</NavDropdown.Item>
-          </NavDropdown>
-          <Nav.Link href="#contact">Contact</Nav.Link>
         </Nav>
       </Navbar.Collapse>
     </Navbar>

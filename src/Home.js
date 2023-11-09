@@ -5,7 +5,7 @@ import Nav from './Nav';
 import Bio from './Bio';
 import Footer from './Footer'
 import Contact from "./Contact";
-import NavDropdown from "./NavDropdown";
+import NavDropdown from "./NavDropdownMenu";
 import { Container, Row, Col } from 'react-bootstrap';
 
 function Home() {
@@ -14,14 +14,7 @@ function Home() {
     <Container fluid>
 
       <Row>
-        <Col xs={12}>
-          {/* <Header /> */}
-          {/* <NavDropdown /> */}
-        </Col>
-        {/* <Col> */}
         <Header />
-        {/* </Col> */}
-        {/* <NavDropdown /> */}
       </Row>
 
       <Row >
