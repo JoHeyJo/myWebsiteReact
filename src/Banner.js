@@ -38,7 +38,7 @@ function Banner() {
   return (
     <div className="Banner-container bannerFs">
       <h1 className="Banner-title bannerFs mb-0">fullstack</h1>
-      <section className="d-flex">
+      <section className="Banner subBanner d-flex">
         <h3 className="Banner-subtitle bannerFs my-0">swe</h3>
         <section className="Banner-devicons">
           {renderTypeScript(width)}{renderReact(width)}{renderPython(width)}{renderFlask(width)}
