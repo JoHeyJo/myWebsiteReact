@@ -13,6 +13,7 @@ function Footer(){
         
         <p id="contact-text">contact</p>
         <p className="d-none d-lg-block">JPF0628@GMAIL</p>
+        
       </section>
       
     </footer>
