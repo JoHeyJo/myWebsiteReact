@@ -1,9 +1,8 @@
 
-.Banner-container {
+.Banner-title, .Banner-subtitle {
   font-family: 'Roboto Condensed', sans-serif;
   text-transform: uppercase;
   letter-spacing: -15px;
-  
   margin-top: 10vh;
   margin-bottom: 50vh;
 }

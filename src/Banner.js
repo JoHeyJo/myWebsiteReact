@@ -28,18 +28,23 @@ function renderTypeScript(windowWidth) {
 
 function Banner() {
   const [width, setWidth] = useState(Infinity);
-  useEffect(()=>{
-    function handleResize(){
+  useEffect(() => {
+    function handleResize() {
       setWidth(window.innerWidth)
     }
-    window.addEventListener("resize",handleResize)
+    window.addEventListener("resize", handleResize)
   })
 
   return (
-    // <section className="Banner-container" id="Banner-text">
-    <section className="Banner-container bannerFs">
-      fullstack <br />swe {renderTypeScript(width)}{renderReact(width)}{renderPython(width)}{renderFlask(width)}
-    </section>
+    <div className="Banner-container bannerFs">
+      <h1 className="Banner-title bannerFs mb-0">fullstack</h1>
+      <section>
+        <h3 className="Banner-subtitle bannerFs">swe</h3>
+        <section>
+          {renderTypeScript(width)}{renderReact(width)}{renderPython(width)}{renderFlask(width)}
+        </section>
+      </section>
+    </div>
   )
 }
 
