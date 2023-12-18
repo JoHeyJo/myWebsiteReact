@@ -36,13 +36,13 @@ function Contact() {
     } else {
 
       try {
-        console.log('e.target',form)
+        console.log('e.target', form)
         const response = await emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, e.target, PUBLIC_KEY);
         console.log(response.text);
         setForm(contact_form);
         setAlert('Thank you, your message has been sent!');
       } catch (error) {
-        console.log('>>>>>>',error);
+        console.log('>>>>>>', error);
         setForm(contact_form);
         setAlert('Email was not sent please try, again.');
       }
@@ -102,10 +102,10 @@ function Contact() {
             onChange={handleChange}
             name="message"
             value={form.message} />
-           {/* using Button component submits the wrong data format. error:
+          {/* using Button component submits the wrong data format. error:
           "The 3rd parameter is expected to be the HTML form element or the style selector of form"
           even if the form is passed JSEmail function doesn't accept it. */}
-          <input id='submit-button' type="submit" value="Send" /> 
+          <input id='submit-button' type="submit" value="Send" />
           <Button className='m-2' variant="outline-dark" onClick={clearForm}>Clear</Button>
         </div>
         {alert &&

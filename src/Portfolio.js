@@ -13,7 +13,6 @@ import Button from 'react-bootstrap/Button';
 import buglyDemo from './img/bugly_demo.webm';
 import sharebbDemo from './img/sharebb_demo.webm';
 import joblyDemo from './img/jobly_demo.webm';
-import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 
 function Portfolio() {
   const [index, setIndex] = useState(0);
